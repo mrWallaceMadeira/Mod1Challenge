@@ -49,7 +49,10 @@ public class Week2 {
         /*
             Problem IV
             --------
-            Write a program that reads your name and prints each letter on a new line of output
+            Write a program that reads your first and last name (in two separate prompts).
+            You must:
+                a. Notify the user whether they've entered your first or last name
+                b. The names can be entered in any order
          */
 
 
@@ -60,11 +63,18 @@ public class Week2 {
         /*
             Problem V
             --------
-            Fix the errors such that the following will print your name
+            Fix the errors such that the following will print false.
+            You must:
+                a. Only change the numbers, not the boolean assignment
+
 
          */
-            Scanner myScanner = new Scanner(System.in);
-            System.out.print(myScanner.nextInt());
+            int i = 0;
+            int x = 1;
+            int j = 2;
+            boolean b = false;
+            b = j % x == i;
+            System.out.print(b);
 
 
 
