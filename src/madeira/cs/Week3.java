@@ -28,9 +28,22 @@ public class Week3 {
             
             Problem IV
             ----------
+            Produce the following output using one print statement
             
+            *****
+            ****
+            ***
+            **
+            *
             
-            Problem V:
+            Problem V
+            ---------
+            Produce the following output using one print statement
+            
+            ****
+            **
+            *
+            
             
             
             
