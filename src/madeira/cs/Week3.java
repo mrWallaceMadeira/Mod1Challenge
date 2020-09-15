@@ -51,13 +51,26 @@ public class Week3 {
             EXTRA CREDIT BELOW
             ------------------
             
+           
+            Problem VI
+            ----------
+            Declare an number, any number.
+            Prompt the user to guess your number.
+            Give them 10 tries to get it right.
+            For each try they should either be:
+                Hot: +/- 2 
+                Medium: +/- 4
+                Mild: +/- 8
+            If they are Hot they should have 4 guesses subtracted from their total remaining
+            If they are Medium they should have 2 guesses subtracted from their total remaining
+            If they are Mild they should have 1 guess subtracted from their total remaining
             
+            Edge Cases:
+            If I have 4 guesses remaining and my guess is within 2 of the correct answer I should receive the prompt: "One more guess!"
+            Same goes for 2 guesses remaining with a Medium guess
             
-            Problem VI:
-            Problem VII:
-            Problem VIII:
-            Problem IX:
-            Problem X:
+       
+            
         */
     }
 }
