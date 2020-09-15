@@ -65,11 +65,15 @@ public class Week3 {
             If they are Medium they should have 2 guesses subtracted from their total remaining
             If they are Mild they should have 1 guess subtracted from their total remaining
             
-            Edge Cases:
-            If I have 4 guesses remaining and my guess is within 2 of the correct answer I should receive the prompt: "One more guess!"
-            Same goes for 2 guesses remaining with a Medium guess
+            Once they're out of guesses, they should be prompted to play again.
             
-       
+            
+            Edge Cases:
+            - If I have 4 guesses remaining and my guess is within 2 of the correct answer I should receive the prompt: "One more guess!"
+            - Same goes for 2 guesses remaining with a Medium guess
+            - User should be able to enter ANY TYPE of number
+            
+            Brownie points for well commented / organized code that goes above and beyond to direct the user clearly & leaves no room for ambiguous edge cases
             
         */
     }
